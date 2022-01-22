@@ -1,0 +1,394 @@
+/* Menu */
+.bg-dark {
+    background-color: #9e9e9e !important;
+  }
+
+
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .menu-container {
+    color: #fff;
+    padding: 0px 0;
+    width: 100%;
+    display: flex;
+  }
+  
+  .row-photos {
+    border: 1px solid #fff;  /* For debugging */
+    width: 100%;
+    display: flex;
+  }
+
+  .item {
+    display: flex;
+    width: 33.3%;
+  }
+
+  .photo-text {
+    display: flex;
+    width: 100%;
+    padding: 0px 0;
+
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 12.5%;
+    height: 100%;
+  }
+
+  .openingstatement {
+    padding-top: 15.75%;
+    padding-bottom: 2.5%;
+    display: flex;
+    align-self: center;
+    font-size: 90px;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;  
+
+  }
+ 
+  .paragraph {
+    font-size: 30px;
+    align-self: center;   
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 60px;
+
+  }
+
+  .paragraph, .openingstatement{
+    
+    padding-left: 20.5%;
+    display: flex;
+    margin: 40px;
+
+  }
+
+  .photo {
+    display: flex;
+    width: 50%;
+    height: auto;
+    padding-right: 2.5%;
+  }
+
+  .title-text {
+    position: absolute;
+    color: white;
+    font-size: 500%;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    /* padding-top: 350px;
+    padding-left: 37%; */
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;  
+  }
+
+  .photo-item {
+
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-self: center;
+  }
+
+  
+  .spacer {
+    padding-top: 400px;
+  }
+
+  .footer {
+
+    width: 100%;
+    height: 500px;
+    background-color: #343a3f;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .link {
+
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+  }
+
+  .icons {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+
+  }
+
+  .photo-icon {
+
+    display: flex;
+    width: 200px;
+    height: auto;
+    padding: 40px;
+    padding-bottom: 70px;
+
+  }
+  
+  .githublink {
+
+    align-items: flex-end;
+    display: flex;
+    font-size: 30px;
+    color: white;
+
+  }
+  .githublink:hover {
+    color: gray;
+  }
+
+
+
+  /* Portfolio */
+
+  .portfolio-layer {
+
+    color: #fff;
+    padding: 0px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .first-layer {
+    padding-top: 1%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .second-layer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .third-layer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1%;
+
+  }
+
+  .photo-image {
+    display: flex;
+    width: 30%;
+    height: auto;
+    padding: 1%;
+    border-radius: 10px;
+    
+  }
+
+  .spacer2 {
+    padding-top: 250px;
+  }
+
+  .returnhome {
+    display: flex;
+    margin: 80px;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;  
+    font-size: 60px;
+    justify-content: center;
+    color: rgb(81, 81, 81);
+
+  }
+
+  .returnhome:hover {
+    color: gray;
+    text-decoration: none;
+
+  }
+
+  .division {
+    display: flex;
+    justify-content: center;
+  }
+
+  .checkoutportfolio {
+    display: flex;
+    margin: 80px;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;  
+    font-size: 60px;
+    justify-content: center;
+    color: rgb(81, 81, 81);
+  
+  }
+
+
+
+  /* About Page   */
+
+
+
+  .section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profile {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .profilepic {
+    display: flex;
+    width: 80%;
+    height: auto;
+    padding: 50px;
+    border-radius: 10px;
+    padding-bottom: 200px;
+  }
+
+  .text-boxes {
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+  }
+
+  .title-about {
+    display: flex;
+    font-size: 150px;
+    padding: 200px;
+    justify-content: center;
+  }
+
+  .title-about2 {
+    display: flex;
+    font-size: 100px;
+    padding: 20px;
+    width: 70%;
+    justify-content: center;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;  
+
+  }
+
+  .paragraph-about {
+    width: 50%;
+    font-size: 30px;
+  }
+
+  .space {
+    width: 50%;
+  }
+
+  .checkoutportfolio:hover {
+    color: gray;
+    text-decoration: none;
+  }
+ 
+
+
+  /* Reviews Page */
+
+  .padding {
+    padding: 30px;
+  }
+
+  .review-page {
+    display: flex;
+    width: 100%;
+  }
+
+  .review {
+    display: flex;
+    width: 60%;
+    border: 1px solid black;
+    background-color: lightgray;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 50px;
+    padding-left: 200px;
+  }
+
+  .reviewtext {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .reviewtitle {
+    font-size: 60px;
+    text-align: left;
+
+  }
+
+  .stars {
+    font-size: 40px;
+    text-align: left;
+
+  }
+
+  .reviewtext {
+    font-size: 25px;
+    text-align: left;
+    width: 100%
+
+  }
+
+  .overall {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+   
+  /* Mobile Styles */
+  @media only screen and (max-width: 800px) {
+    
+    .paragraph {
+      font-size: 10px;
+      line-height: 40px;
+    }
+    .title-text {
+      font-size: 100%;
+    }
+
+  }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 801px) and (max-width: 1060px) {
+    .paragraph {
+      font-size: 20px;
+      line-height: 50px;
+    }
+    .title-text {
+      font-size: 200%;
+    }
+  }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 1061px) {
+    .paragraph {
+      font-size: 30px;
+    }
+    .title-text {
+      font-size: 400%;
+    }
+  }
